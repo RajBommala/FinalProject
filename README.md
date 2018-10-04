@@ -1,1 +1,1 @@
-# FinalProject
+# SmartBrain - FaceRecognitionApp
