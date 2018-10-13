@@ -1,1 +1,1 @@
-# SmartBrain - FaceRecognitionApp
+#FaceRecognitionApp
