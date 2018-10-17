@@ -65,17 +65,6 @@ class App extends Component {
     }
   }
 
-
-  loadUser = (data) => {
-    this.setState({user: {
-      id: data.id,
-      name: data.name,
-      email: data.email,
-      entries: data.entries,
-      joined: data.joined
-    }});
-  }
-
   displayFaceBox = (box) => {
     this.setState({box: box});
   }
@@ -86,7 +75,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-      fetch('https://mysterious-ravine-53628.herokuapp.com/imageurl', {
+      fetch('http://localhost:3001/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -96,7 +85,7 @@ class App extends Component {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('https://mysterious-ravine-53628.herokuapp.com/image', {
+          fetch('http://localhost:3000/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
