@@ -8,29 +8,26 @@
 <table>
 	<tr>
 		<td>
-			Smart-Brain uses Clarifai API to detect face in an image. It helps to detect face in a picture provided by user through URL of image. User's rank gets upgraded everytime user detects image in a picture.<br>
-			This API built with Node.js, Express.js, as well as a PosrtgreSQL is in charge of user signin/registration as well as keeping track of the number of entries for each user.
-
-		</td>
-	</tr>
+			Smart-Brain uses Clarifai API to detect face in an image. It helps to detect face in a picture provided by user through URL of image. User's rank gets upgraded everytime user detects image in a picture.This API built with Node.js, Express.js, as well as a PosrtgreSQL is in charge of user signin/registration as well as keeping track of the number of entries for each user.
+	
 </table>
 
 ## Site
 
 ### Register
 
-![register]()
+![register](https://raw.githubusercontent.com/RajBommala/FinalProject/master/images/register.png)
 
 ### Sign In
 
-![login]()
+![login](https://raw.githubusercontent.com/RajBommala/FinalProject/master/images/signin.png)
 
 ### Home Page (after login)
 
-![homepage]()
+![homepage](https://raw.githubusercontent.com/RajBommala/FinalProject/master/images/home.png)
 
 ### Face Detection Example
 
-![fdexample]()
+![fdexample](https://raw.githubusercontent.com/RajBommala/FinalProject/master/images/detect.png)
 
 
