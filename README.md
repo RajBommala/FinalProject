@@ -12,21 +12,21 @@
 	
 </table>
 
-## Site
+## Web Application
 
 ### Register
 
 ![register](https://raw.githubusercontent.com/RajBommala/FinalProject/master/images/register.png)
 
-### Sign In
+### SignIn
 
 ![login](https://raw.githubusercontent.com/RajBommala/FinalProject/master/images/signin.png)
 
-### Home Page (after login)
+### HomePage 
 
 ![homepage](https://raw.githubusercontent.com/RajBommala/FinalProject/master/images/home.png)
 
-### Face Detection Example
+### FaceDetectionExample
 
 ![fdexample](https://raw.githubusercontent.com/RajBommala/FinalProject/master/images/detect.png)
 
